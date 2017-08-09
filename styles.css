@@ -1,0 +1,40 @@
+* {
+  margin: 0 auto;
+  font-family: Georgia, serif;
+  box-sizing: border-box;
+}
+
+input {
+  margin: 2%;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2%;
+  border-top: 3px solid black;
+  flex-basis: 100%;
+  margin: 0;
+}
+
+.recipe {
+  border: 1px solid black;
+  flex-basis: 25%;
+  height: 25vh;
+  margin: 1%;
+}
+
+img {
+  display: flex;
+  height: 80%;
+  flex-basis: 100%;
+  align-items: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+p{
+  text-align: center;
+}
